@@ -1,0 +1,679 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 19.1 LEGAL NOTICES                   *
+    ***************************************************************
+    *                                                             *
+    * Copyright 1971-2017 SAS IP, Inc.  All rights reserved.      *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 19,2018,109,1
+
+    Loading Contact Model
+    Model Contains 12 contact pairs and 13 bodies
+    Finished Loading Contact Model
+    _____
+    Loading Geometry
+    Resuming geometry file
+    13 bodies to read
+    1 / 13 - SYS\_______ 1
+    2 / 13 - SYS\_________
+    3 / 13 - SYS\_____ 1
+    4 / 13 - SYS\_____ 1
+    5 / 13 - SYS\_______ 3
+    6 / 13 - SYS\_____ 2
+    7 / 13 - SYS\_____ 2
+    8 / 13 - SYS\_______ 5
+    9 / 13 - SYS\______
+    10 / 13 - SYS\_______ 2
+    11 / 13 - SYS\____________
+    12 / 13 - SYS\_______ _____________
+    13 / 13 - SYS\_______ 4
+    Preparing Contact Regions
+    Region Contact Region
+    Region Contact Region 2
+    Region Contact Region 3
+    Region Contact Region 8
+    Region Contact Region 9
+    Region Contact Region 10
+    Region Contact Region 11
+    Region Contact Region 12
+    Region Contact Region 13
+    Region Contact Region 14
+    Region Contact Region 15
+    Region Contact Region 16
+    Finished Loading Geometry
+    _____
+    Validating the model
+    Validation Performed
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  17
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_____ 1 - SYS\_______ 3 -  Penetrated...
+    Number Of Points  26
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  17
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_____ 1 - SYS\_______ 3 -  Penetrated...
+    Number Of Points  26
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  17
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_____ 1 - SYS\_______ 3 -  Penetrated...
+    Number Of Points  26
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  12
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  12
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\_______ 1 - SYS\_________ -  Penetrated...
+    Number Of Points  15
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  13
+
+
+    Region: SYS\_______ 1 - SYS\_____ 1 -  Penetrated...
+    Number Of Points  3
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  30
+
+
+    Region: SYS\_______ 3 - SYS\_____ 2 -  Touching...
+    Number Of Points  32
+
+
+    Region: SYS\_____ 2 - SYS\______ -  Touching...
+    Number Of Points  27
+
+
+    Region: SYS\_______ 5 - SYS\______ -  Touching...
+    Number Of Points  25
+
+
+    Region: SYS\_____ 1 - SYS\_______ 2 -  Touching...
+    Number Of Points  24
+
+
+    Region: SYS\_____ 2 - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+    Region: SYS\____________ - SYS\_______ _____________ -  Touching...
+    Number Of Points  106
+
+
+    Region: SYS\____________ - SYS\_______ 4 -  Touching...
+    Number Of Points  23
+
+
+
+End of Contact. CPU Time 11.4531 Elapsed Time 4.882
+
+Contact Run Completed
+

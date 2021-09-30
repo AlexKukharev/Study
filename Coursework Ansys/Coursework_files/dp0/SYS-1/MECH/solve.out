@@ -1,0 +1,93 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 19.1 LEGAL NOTICES                   *
+    ***************************************************************
+    *                                                             *
+    * Copyright 1971-2017 SAS IP, Inc.  All rights reserved.      *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 19,2018,109,1
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Initializing Transient Analysis
+
+    ___________________________________________________________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    De-activating Driver Joint - Rotation
+    De-activating Driver Joint - Rotation
+    Stopped Contact Region 8 during initial assembly
+    Convergence not reached after 5 Iteration
+
+    Driver Joint - Rotation Component 5 Violation 1.309990e+00
+
+    Joint Fixed - SYS\Рычаг 1 To SYS\Цилиндр 3 Direction 0 Violation 3.793696e-02
+
+    Reference Coordinate System of the Joint: -0.0618663 0.261965 0.0543007
+    Moving Coordinate System of the Joint: -0.0274788 0.28024 0.0543007
+    Assembly Phase 2 Iteration 1 - Increment Norm 1.696329e-07 - Convergence reached
+
+    Convergence not reached after 1 Iteration
+
+    Driver Joint - Rotation Component 5 Violation 1.309990e+00
+
+    Joint Fixed - SYS\Рычаг 1 To SYS\Цилиндр 3 Direction 0 Violation 3.793696e-02
+
+    Reference Coordinate System of the Joint: -0.0618662 0.261965 0.0543007
+    Moving Coordinate System of the Joint: -0.0274788 0.28024 0.0543007
+    Driver Joint - Rotation Component 5 Violation 1.309991e+00
+
+    Joint Fixed - SYS\Рычаг 1 To SYS\Цилиндр 3 Direction 0 Violation 3.793675e-02
+
+    Reference Coordinate System of the Joint: -0.0618662 0.261965 0.0543007
+    Moving Coordinate System of the Joint: -0.0274788 0.28024 0.0543007
+    Some constraint equations cannot be satisifed. Assembly failed
+
+    InitializeAnalysis failed 
+    InitializeTransientDynamics failed 
