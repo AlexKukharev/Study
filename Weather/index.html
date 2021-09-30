@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Weather</title>		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
+		<script src="js/script.js" ></script>	
+		
+	</head> 
+	<body>
+		<div class="header">	
+			
+			<select id = "select">
+				<option style="color:gray" value="null">select one option</option>
+	
+				<option value="main">Main - TEMP and Pressure</option>
+				<option value="weather">Weather - Main and Description</option>
+				<option value="wind">Wind - Deg and Speed</option>			
+				<option value="sys">Sys - country, sunrise and sunset</option>	
+				<option value="coord">Coordinates - longitude and latitude</option>				
+			</select>		
+			<input type="text" id="input">
+			<button type="button" id="submit">Search!</button> 
+		</div>	
+		<div id="content" class="weather-list">
+			<!--content-->
+		</div>
+	</body>	
+</html>
+
+
+
